@@ -1,14 +1,14 @@
 # Sending order receipt file to user through mail using Azure Functions once the payment done
 
-<b>Key Features:<b/>
+###### Key Features:
 
 Azure HttpTrigger, QueueTrigger, BlobTrigger, TableStorage, SendGrid
 
-<b>Requirement:<b/>
+###### Requirement:
 
 Visual Studio 2017+, .net core 2.1, Azure access
 
-local.settings.json file changes:
+###### local.settings.json file changes:
  
  1. Add Azure Storage connection string in "AzureWebJobsStorage" section.
  2. Add Send Grid Api Key in "SendGridApiKey" section.
@@ -28,7 +28,7 @@ local.settings.json file changes:
 
 ![header image](https://github.com/iamchandanys/azure_function_app/blob/master/Images/AzureFunctionDemo.png)
 
-<b>Steps:<b/>
+###### Steps:
 
 Step A - Receives Order Details like orderid, emailid, orderamount etc,. through HTTP trigger.
 
