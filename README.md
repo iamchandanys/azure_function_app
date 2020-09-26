@@ -1,4 +1,4 @@
-# Sending order receipt file to user through mail using Azure Functions once the payment done
+# Sending order receipt file to the user through mail using Azure Functions once the payment is done
 
 ###### Key Features:
 
@@ -30,7 +30,7 @@ Visual Studio 2017+, .net core 2.1, Azure access
 
 ###### Steps:
 
-Step A - Receives Order Details like orderid, emailid, orderamount etc,. through HTTP trigger.
+Step A - Receives Order Details like order id, email id, order amount etc., through HTTP trigger.
 
 1. HTTP Triggers once the payment is done.
 2. Reads the request body and save the order data in Table Storage.
