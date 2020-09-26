@@ -1,7 +1,5 @@
 # Sending order receipt file to user through mail using Azure Functions once the payment done
 
-<br/>
-
 <b>Key Features:<b/>
 
 Azure HttpTrigger, QueueTrigger, BlobTrigger, TableStorage, SendGrid
