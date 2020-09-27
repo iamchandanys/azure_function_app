@@ -32,11 +32,11 @@ Visual Studio 2017+, .net core 2.1, Azure access
 
 Step A - Receives Order Details like order id, email id, order amount etc., through HTTP trigger.
 
-1. HTTP Triggers once the payment is done.
-2. Reads the request body and save the order data in Table Storage.
-3. Send a Queue Message to generate Receipt File.
+1. Need to make HTTP request once the order is placed or once the payment is done or whenever we need to generate receipt.
+2. eads the request body & send a Queue Message to generate Receipt File.
+3. Save the order data in Table Storage.
 
-Step 2 - Receives Queue message and generates the Receipt File.
+Step B - Receives Queue message and generates the Receipt File.
 
 4. Queue triggers once it receives the message.
 5. Generates Receipt File with the name orderid and store it in Blob Storage.
