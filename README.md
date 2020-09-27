@@ -1,4 +1,4 @@
-# Sending order receipt file to the user through mail using Azure Functions once the payment is done
+# Sending order receipt file to the user through mail using Azure Functions
 
 ###### Key Features:
 
@@ -26,7 +26,7 @@ Visual Studio 2017+, .net core 2.1, Azure access
 }
  ```
 
-![header image](https://github.com/iamchandanys/azure_function_app/blob/master/Images/AzureFunctionDemo.png)
+![header image](https://github.com/iamchandanys/sending_order_receipt_through_mail/blob/master/docs/AzureFunctionDemo.png)
 
 ###### Steps:
 
